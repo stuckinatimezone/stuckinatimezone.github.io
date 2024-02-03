@@ -1,0 +1,106 @@
+
+body{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: hsl(0, 2%, 21%);
+    margin: 0;
+}
+h1{
+    font-family: Lato, sans serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#title-para{
+    font-family: Lato, sans serif;
+    font-weight: 300;
+    text-align: center;
+}
+#img-caption{
+    font-family: Lato, sans serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+section h3{
+    font-family: Lato, sans serif;
+    font-weight: 600;
+}
+section li{
+    font-family: Lato, sans serif;
+    font-weight: 300;
+}
+#quote{
+    font-family: Lato, sans serif;
+    font-weight: 600;
+    font-style: italic;
+}
+#cite{
+    font-family: Lato, sans serif;
+    font-weight: 600;
+    font-style: italic;
+}
+h3{
+    font-family: Lato, sans serif;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color: hsl(0, 0%, 25%);
+}
+img{
+    /*This property below sets the image centered
+    so that even when the broswer is shrinked the 
+    image doesn't compress
+    */
+    max-width: 85%;
+    height: auto;
+    margin: 12px auto;
+    display: block;
+}
+#img-div{
+    background: white;
+    padding: 12px;
+    margin: 0;
+    border-radius: 5px;
+}
+#img-caption{
+    margin: 15px 0 5px 0;
+}
+#main{
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+}
+#headline{
+    margin: 50px 0;
+    text-align: center;
+}
+ul{
+    max-width: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 1.6;
+    border-radius: 5px;
+    background: hsl(0, 0%, 89%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+li{
+    margin: 12px;
+}
+#bottom-text{
+    display: block;
+    text-align: center;
+    max-width: 625px;
+    margin: auto;
+}
