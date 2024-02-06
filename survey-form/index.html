@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  <head>
+      <body>
+        <h1 id="title">Cat Survey Form</h1>
+        <p id="description">Thankyou for taking your time to fill out the below form</p>
+
+        <form method="POST" id="survey-form">
+          <fieldset>
+
+            <label id="name-label" for="name">Name 
+              <input id="name" name="name" type="text" required placeholder="Spongebob">
+            </label>
+
+            <label id= "email-label" for="email">Email
+              <input id="email" name="email" type="email" required placeholder="bob@email.com">
+            </label>
+
+            <label id="number-label"for="number">Age of cat
+              <input id="number", name="number" type="number" min="13" max="120" placeholder="21">
+            </label>
+
+            <label for="breed">Which breed does your cat belong to?
+          <select id="breed" name="breed">
+            <option value="">(select one)</option>
+            <option value="1">Persian News</option>
+            <option value="2">Ragdoll</option>
+            <option value="3">British Shorthair</option>
+            <option value="4">American shorthair</option>
+            <option value="5">Maine Coon</option>
+            <option value="6">Others</option>
+          </select>
+        </label>
+
+          </fieldset>
+
+
+          <fieldset>
+            <legend>How active is your cat?</legend>
+            <label for="very-active">
+              <input value="very-active" id="very-active" type="radio" name="cat-type" class="inline" checked>Very active
+            </label>
+
+            <label for="moderately-active">
+              <input value="moderately-active" id="moderately-active" type="radio" name="cat-type" class="inline">Moderately active
+            </label>
+
+            <label for="lazy">
+              <input value="lazy" id="lazy" type="radio" name="cat-type" class="inline">Lazy
+            </label>
+
+          </fieldset>
+
+
+          <fieldset>
+            <label for="feature">What is your cat(s) favorite toy?
+              <select
+              id="dropdown"
+              name="feature">
+              <option value="">(select one)</option>
+
+              <option value="1">Lasers</option>
+
+              <option value="2">Soft toys</option>
+
+              <option value="3">Cardboard box</option>
+
+          </fieldset>
+
+          
+          <fieldset>
+        <legend>What changes would you like to see in your cat?</legend>
+        <label for="happy">
+            <input value="Happy" class="inline" id="happy" type="checkbox" name="changes">Happy
+        </label>
+        <label for="playful">
+            <input value="playful" class="inline" id="playful" type="checkbox" name="changes">Playful
+        </label>
+        <label for="energetic">
+            <input value="Energetic" class="inline" id="energetic" type="checkbox" name="changes">Energetic
+        </label>
+        <label for="calm">
+            <input value="calm" class="inline" id="calm" type="checkbox" name="changes">Calm
+        </label>
+        <label for="curious">
+            <input value="curious" class="inline" id="curious" type="checkbox" name="changes">Curious
+        </label>
+    </fieldset>
+          
+
+          <fieldset>
+            <label for="extras">Anything else you would like to add?<textarea id="extras" name="extras" rows="3" cols="30" placeholder="I would like my cat to..."></textarea>
+
+          </fieldset>
+
+          <label>
+              <input id="submit" type="submit" value="submit">
+
+        </form>
+      </body>
+</html>
