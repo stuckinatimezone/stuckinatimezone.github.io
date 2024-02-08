@@ -25,7 +25,7 @@
               <input id="number", name="number" type="number" min="13" max="120" placeholder="21">
             </label>
 
-            <label for="breed">Which breed does your cat belong to?
+            <label id="breed-label" for="breed">Which breed does your cat belong to?
           <select id="breed" name="breed">
             <option value="">(select one)</option>
             <option value="1">Persian News</option>
@@ -35,22 +35,22 @@
             <option value="5">Maine Coon</option>
             <option value="6">Others</option>
           </select>
-        </label>
+            </label>
 
           </fieldset>
 
 
           <fieldset>
-            <legend>How active is your cat?</legend>
-            <label for="very-active">
+            <legend id="active-legend">How active is your cat?</legend>
+            <label id="very-active" for="very-active">
               <input value="very-active" id="very-active" type="radio" name="cat-type" class="inline" checked>Very active
             </label>
 
-            <label for="moderately-active">
+            <label id="moderately-active" for="moderately-active">
               <input value="moderately-active" id="moderately-active" type="radio" name="cat-type" class="inline">Moderately active
             </label>
 
-            <label for="lazy">
+            <label id="lazy" for="lazy">
               <input value="lazy" id="lazy" type="radio" name="cat-type" class="inline">Lazy
             </label>
 
