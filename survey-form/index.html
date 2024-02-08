@@ -58,7 +58,7 @@
 
 
           <fieldset>
-            <label for="feature">What is your cat(s) favorite toy?
+            <label id="favorite-toy" for="feature">What is your cat(s) favorite toy?
               <select
               id="dropdown"
               name="feature">
@@ -73,33 +73,33 @@
           </fieldset>
 
           
-          <fieldset>
-        <legend>What changes would you like to see in your cat?</legend>
-        <label for="happy">
-            <input value="Happy" class="inline" id="happy" type="checkbox" name="changes">Happy
-        </label>
-        <label for="playful">
-            <input value="playful" class="inline" id="playful" type="checkbox" name="changes">Playful
-        </label>
-        <label for="energetic">
-            <input value="Energetic" class="inline" id="energetic" type="checkbox" name="changes">Energetic
-        </label>
-        <label for="calm">
-            <input value="calm" class="inline" id="calm" type="checkbox" name="changes">Calm
-        </label>
-        <label for="curious">
-            <input value="curious" class="inline" id="curious" type="checkbox" name="changes">Curious
-        </label>
-    </fieldset>
+        <fieldset>
+            <legend>What changes would you like to see in your cat?</legend>
+            <label id="happy-option" for="happy">
+                <input value="Happy" class="inline" id="happy" type="checkbox" name="changes">Happy
+            </label>
+            <label id="playful-option" for="playful">
+                <input value="playful" class="inline" id="playful" type="checkbox" name="changes">Playful
+            </label>
+            <label id="energetic-option" for="energetic">
+                <input value="Energetic" class="inline" id="energetic" type="checkbox" name="changes">Energetic
+            </label>
+            <label id="calm-option" for="calm">
+                <input value="calm" class="inline" id="calm" type="checkbox" name="changes">Calm
+            </label>
+            <label id="curious-option" for="curious">
+                <input value="curious" class="inline" id="curious" type="checkbox" name="changes">Curious
+            </label>
+        </fieldset>
           
 
-          <fieldset>
-            <label for="extras">Anything else you would like to add?<textarea id="extras" name="extras" rows="3" cols="30" placeholder="I would like my cat to..."></textarea>
+        <fieldset>
+            <label id="add-comments" for="extras">Anything else you would like to add?<textarea id="extras" name="extras" rows="3" cols="30" placeholder="I would like my cat to..."></textarea>
 
-          </fieldset>
+        </fieldset>
 
-          <label>
-              <input id="submit" type="submit" value="submit">
+            <label>
+                <input id="submit" type="submit" value="submit">
 
         </form>
       </body>

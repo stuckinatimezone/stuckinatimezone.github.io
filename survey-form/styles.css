@@ -63,19 +63,28 @@ input[type="submit"] {
 .inline{
     display: inline; 
 }
-#title, #description{
-  color: white;
+#title{
+  color: #eae3e3;
+}
+#description{
+  color: #c2bebe;
 }
 
 #name-label, #email-label, #number-label{
-    color: white;
+    color: hsl(0, 0%, 85%);
 }
 #breed-label{
-    color: white;
+    color: hsl(0, 0%, 85%);
 }
 #active-legend{
-  color: white;
+  color: hsl(0, 0%, 85%);
 }
-#very-active, #moderately-active, #lazy{
-  color: white;
+#very-active, #moderately-active, #lazy, #favorite-toy{
+  color: hsl(0, 0%, 85%);
+}
+#happy-option, #playful-option, #energetic-option, #calm-option, #curious-option{
+  color: hsl(0, 0%, 85%);
+}
+#add-comments{
+  color: hsl(0, 0%, 85%);
 }
